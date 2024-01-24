@@ -1,0 +1,36 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-dom": "^18.2.8",
+    "autoprefixer": "^9.8.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel": "^2.9.3",
+    "postcss": "^7.0.39",
+    "process": "^0.11.10",
+    "regenerator-runtime": "^0.14.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.2",
+    "core-js": "^2.5.7",
+    "parcel-bundler": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+  }
+}
